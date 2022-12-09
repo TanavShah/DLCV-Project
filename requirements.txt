@@ -35,6 +35,7 @@ freetype=2.12.1=h4a9f257_0
 frozenlist=1.2.0=py38h7f8727e_0
 gast=0.4.0=pyh9f0ad1d_0
 giflib=5.2.1=h7b6447c_0
+git-lfs=3.2.0=ha770c72_0
 google-auth=2.6.0=pyhd3eb1b0_0
 google-auth-oauthlib=0.4.4=pyhd3eb1b0_0
 google-pasta=0.2.0=pyhd3eb1b0_0
