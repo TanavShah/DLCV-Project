@@ -4,7 +4,7 @@ div align="center">
 
 <h1> COMS W 4995 006 (Fall 2022) DLCV - Automated Photo Editing using Neural Style Transfer</h1>
 
-<h3> Adithya K Krishna: akk2188 Tanav Hitendra Shah: ts3469 Rohit V Gopalakrishnan: rvg2119 </h3>
+<h3> Adithya K Krishna: akk2188 <br> Tanav Hitendra Shah: ts3469 <br> Rohit V Gopalakrishnan: rvg2119 </h3>
 </samp>   
 
 </div>     
