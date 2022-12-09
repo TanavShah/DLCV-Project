@@ -48,6 +48,3 @@ Create a conda environment with python 3.8.15 and install the dependencies using
 ```
 python edit_image.py
 ```
-
-
-## Contact
