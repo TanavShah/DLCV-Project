@@ -37,17 +37,16 @@ The structure of the repository is as follows:
 * [Scipy](https://www.scipy.org/)
 * [PyCUDA](https://pypi.python.org/pypi/pycuda) (used in smooth local affine, tested on CUDA 8.0)
 
-***It is recommended to use [Anaconda Python](https://www.continuum.io/anaconda-overview), since you only need to install Tensorflow and PyCUDA manually to setup. The CUDA is optional but really recommended***
-
-### Download the VGG-19 model weights
-The VGG-19 model of tensorflow is adopted from [VGG Tensorflow](https://github.com/machrisaa/tensorflow-vgg) with few modifications on the class interface. The VGG-19 model weights is stored as .npy file and could be download from [Google Drive](https://drive.google.com/file/d/0BxvKyd83BJjYY01PYi1XQjB5R0E/view?usp=sharing&resourcekey=0-Q2AewV9J7IYVNUDSnwPuCA) or [BaiduYun Pan](https://pan.baidu.com/s/1o9weflK). After downloading, copy the weight file to the **./project/vgg19** directory
 
 ## Usage
 ### Basic Usage
-You need to specify the path of content image, style image, content image segmentation, style image segmentation and then run the command
+
+Download the data.zip file from the Google drive folder, and unzip its contents. This contains the image data and some other files needed to execute the code.
+
+Create a conda environment with python 3.8.15 and install the dependencies using requirements.txt file. Then run the script using the following command:
 
 ```
-python deep_photostyle.py --content_image_path <path_to_content_image> --style_image_path <path_to_style_image> --content_seg_path <path_to_content_segmentation> --style_seg_path <path_to_style_segmentation> --style_option 2
+python edit_image.py
 ```
 
 
