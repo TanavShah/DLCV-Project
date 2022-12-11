@@ -21,9 +21,7 @@ The structure of the repository is as follows:
 - `data_utils/web_scrape.py`: Contains code for web-scraping given a link
 - `data_utils/segmentation`: Contains the segmentation code for getting semgentation masks for the scraped images.
 - `data_demo.ipynb`: python notebook that shows how data is extracted, segmented and saved
--
--
--
+- `demo_notebook.ipynb`: python notebook with an sample implementation
 
 ---
 
